@@ -1,5 +1,5 @@
 name: learn-github-actions
-run-name: ${{ github.actor }} is learning GitHub Actions triggedby ${{github.event	}}
+run-name: ${{ github.actor }} is learning GitHub Actions trigged by event: ${{github.event_name}}
 on: [push]
 jobs:
   check-bats-version:
